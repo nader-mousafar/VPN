@@ -1,1 +1,6 @@
-
+add-apt-repository ppa:appimagelauncher-team/stable
+apt update
+apt install libfuse2
+apt install appimagelauncher
+chmod +x Outline-Manager.AppImage
+./Outline-Manager.AppImage

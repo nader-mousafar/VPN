@@ -1,0 +1,9 @@
+bash <(curl -Ls https://raw.githubusercontent.com/mhsanaei/3x-ui/master/install.sh)
+systemctl enable x-ui
+systemctl start x-ui
+
+x-ui        
+x-ui start  
+x-ui stop   
+x-ui restart
+x-ui status 

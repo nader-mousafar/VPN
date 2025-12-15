@@ -7,3 +7,10 @@ x-ui start
 x-ui stop   
 x-ui restart
 x-ui status 
+
+
+http > https
+openssl req -newkey rsa:2048 -nodes -keyout key.pem -x509 -days 365 -out cert.pem
+go to panel > panel setting > general > certification > 
+public key :  /home/cert.pem
+private key : /home/key.pem
